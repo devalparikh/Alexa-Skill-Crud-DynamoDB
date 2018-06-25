@@ -1,0 +1,49 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "activity tracker",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "help me"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AddActivityIntent",
+                    "slots": [
+                        {
+                            "name": "ActivitySlot",
+                            "type": "AMAZON.Color"
+                        }
+                    ],
+                    "samples": [
+                        "add activity {ActivitySlot}",
+                        "to add an activity ",
+                        "add activity"
+                    ]
+                },
+                {
+                    "name": "GetActivityIntent",
+                    "slots": [],
+                    "samples": [
+                        "what are my activities"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
