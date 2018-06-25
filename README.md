@@ -10,6 +10,10 @@ In [AWS Lambda Console](https://aws.amazon.com/lambda/) > Your Function > Copy A
 
 In [Alexa Skill Console](https://developer.amazon.com/alexa) > Build > End Point > Default Region Paste ARN from Lambda Console
 
+In [Alexa Skill Console](https://developer.amazon.com/alexa) > Copy Skill ID
+
+In [AWS Lambda Console](https://aws.amazon.com/lambda/) > Your Function > Paste Skill ID
+
 in [IAM Console](https://console.aws.amazon.com/iam/) > Roles > Permissions > Attach Policy > AmazonDynamoDBFullAccess
 
 ## Usage example
